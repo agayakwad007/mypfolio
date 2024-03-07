@@ -6,6 +6,14 @@
 html {
   font-size: 20px;
 }
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 body {
   /* background-color: #ff4c68; */
   /* color: white; */
@@ -413,6 +421,7 @@ footer {
     /* flex-direction: column; */
     /* justify-content: center; */
     /* flex-basis: 100%; */
+    flex-direction: row;
     align-items: center;
     text-align: center;
     padding-top: 1%;
@@ -455,3 +464,13 @@ footer {
     transition: ease-in 0.5s;
   /* } */
 }
+/* @media only screen and (max-height: 720px) {
+  .front {
+    flex-direction: row;
+  }
+  /* .intro {
+    font-size: 1rem;
+  }
+  .rightmain img {
+    width: 30%;
+  } */
