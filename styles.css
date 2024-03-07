@@ -387,14 +387,71 @@ footer {
     width: 95%;
     margin: 4% 2%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .row {
     flex-direction: column;
     margin-top: 10%;
   }
-  form {
-    flex-direction: column;
+  form input {
+    /* flex-direction: column; */
+    /* flex-basis: 100%; */
+    width: 80%;
   }
+  form textarea {
+    width: 80%;
+  }
+  /* } */
+}
+@media only screen and (min-width: 801px) and (max-width: 1500px) {
+  /* nav {
+    /* height: 45px; */
+  nav .Logo {
+    font-size: 1.5rem;
+  }
+  .front {
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* flex-basis: 100%; */
+    align-items: center;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 10%;
+    /* justify-content: center; */
+    /* font-size: ; */
+    overflow: hidden;
+  }
+  .leftmain {
+    width: 100%;
+    margin: 10% 0.5%;
+  }
+  .leftmain p {
+    font-size: 1.2rem;
+  }
+  .intro {
+    font-size: 1.7rem;
+  }
+  .rightmain {
+    width: 100%;
+  }
+  .rightmain img {
+    width: 60%;
+  }
+
+  /* .leftmain {
+    width: 40vw;
+    /* line-height: 200%; */
+  /* margin: 20% 0.5%; */
+  /* }
+  .rightmain {
+    width: 40vw;
+    margin-left: 10%;
+    /* height: 200px; */
+  /* }
+  
+  .rightmain img {
+    margin: 2% 5%;
+    width: 100%;
+    transition: ease-in 0.5s;
   /* } */
 }
