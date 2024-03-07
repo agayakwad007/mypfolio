@@ -87,7 +87,7 @@ nav .Logo {
 
 .rightmain img {
   margin: 2% 5%;
-  width: 100%;
+  width: 80%;
   transition: ease-in 0.5s;
 }
 hr {
@@ -351,21 +351,23 @@ footer {
     /* justify-content: center; */
     /* font-size: ; */
     /* overflow: hidden; */
+    height: 100%;
   }
   .leftmain {
     width: 100%;
+    margin: 0;
   }
   .leftmain p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .intro {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .rightmain {
     width: 100%;
   }
   .rightmain img {
-    width: 80%;
+    width: 50%;
   }
   .about {
     /* display: flex; */
@@ -464,13 +466,14 @@ footer {
     transition: ease-in 0.5s;
   /* } */
 }
-/* @media only screen and (max-height: 720px) {
+/* @media only screen and (min-height: 720px) {
   .front {
     flex-direction: row;
   }
-  /* .intro {
+  .intro {
     font-size: 1rem;
   }
   .rightmain img {
     width: 30%;
-  } */
+  }
+} */
